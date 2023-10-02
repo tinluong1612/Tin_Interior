@@ -1,26 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/homePage/home'
-import About from './pages/aboutPage/about'
-import Blog from './pages/blogPage/blog'
-import Pricing from './pages/pricingPage/pricing'
-import Service from './pages/servicePage/service'
-
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { publicRoutes } from './routes'
 
 function App() {
   return (
       <Router>
         <div className="App">
           <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/pricing" element={<Pricing />} />
-              <Route path="/service" element={<Service />} />
+              {publicRoutes.map((route, index) => {
+                const Page = route.component;
+                return <Route key={index} path={route.path} element={<Page />} />
+              })}
           </Routes>
         </div>
       </Router>
-  )
+  );
 }
 
-export default App
+export default App;
