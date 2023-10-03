@@ -6,11 +6,15 @@
     box-sizing: border-box;
 }
 
+.col-60 {
+    width: 60%;
+}
+
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 20px 0;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .logo{
