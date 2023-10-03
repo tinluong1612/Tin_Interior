@@ -22,7 +22,7 @@
             <ul class="menubar-item"><a href="">Service</a></ul>
             <ul class="menubar-item"><a href="">Pricing</a></ul>
             <ul class="menubar-item"><a href="">Blog</a></ul>
-            
+
             <div class="search-box">
                 <input class="search-box_input" type="text">
                 <button class="search-box_btn">
@@ -31,7 +31,16 @@
             </div>
         </span>
     </div>
+
+    <!-- Javascript -->
+    <script>
+        var btnSearch = document.querySelector('.search-box_btn')
+
+        btnSearch.addEventListener('click', function () {
+            this.parentElement.classList.toggle('search-box_open')
+            this.previousElementSibling.focus();
+        })
+    </script>
 </body>
-<script src="./header.js"></script>
 
 </html>

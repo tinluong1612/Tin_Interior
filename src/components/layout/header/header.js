@@ -1,6 +1,5 @@
-var btnSearch = document.querySelector('.search-box_btn')
+function Header() {
+    return <h2>Header</h2>;
+}
 
-btnSearch.addEventListener('click', function(){
-    this.parentElement.classList.toggle('search-box_open')
-    this.previousElementSibling.focus();
-})
+export default Header;
