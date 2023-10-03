@@ -19,16 +19,16 @@ function Footer() {
                     </p>
                     <div className="social">
 
-                        <a href="" className='icon-social'>
+                        <a href="#" className='icon-social'>
                             <FontAwesomeIcon icon={faFacebookF} />
                         </a>
-                        <a href="" className='icon-social'>
+                        <a href="#" className='icon-social'>
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
-                        <a href="" className='icon-social'>
+                        <a href="#" className='icon-social'>
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href="" className='icon-social'>
+                        <a href="#" className='icon-social'>
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>
@@ -36,38 +36,38 @@ function Footer() {
                 {/* Pages */}
                 <div className="col-10 page-content">
                     <h2 className="content">Pages</h2>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         About Us
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Our Projects
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Our Team
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Contact Us
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Services
                     </a>
                 </div>
                 {/* Services */}
                 <div className="col-10 page-content">
                     <h2 className="content">Services</h2>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Kitchan
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Living Area
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Bathroom
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Dinning Hall
                     </a>
-                    <a href="" className="info">
+                    <a href="#" className="info">
                         Bedroom
                     </a>
                 </div>
