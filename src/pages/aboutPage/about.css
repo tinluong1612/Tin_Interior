@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.pd-100{
+    padding: 100px 0;
+}
+
+.fw{
+    font-weight: 600;
+}
+
+.fz-18{
+    font-size: 18px;
+}
+
+.f{
+    font-family: Jost;
+}
+
+.opacity{
+    opacity: 0.8;
+}
+
+/* Quotes */
+.quotes{
+    display: flex;
+    justify-content: center;
+}
+
+.border-quotes{
+    width: 30%;
+    border: outset 20px #F4F0EC;
+    border-radius: 35px;
+}
+
+.content-quotes{
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.content-body{
+    padding: 10px 0;
+}
+
+/* What We Do */
+.what-we-do{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.content{
+    width: 30%;
+    padding: 20px 48px;
+}
+
+.content .note{
+    padding: 30px 0;
+}
+
+.get-free-btn {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 13px;
+    line-height: 22.5px;
+    letter-spacing: 1px;
+    background: #292F36;
+    color: #fff;
+}
+
+.arrow {
+    font-size: 25px;
+    padding: 0 5px;
+    color: #CDA274;
+}
+
+.image{
+    border-radius: 50px;
+}
