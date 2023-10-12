@@ -28,6 +28,10 @@
     opacity: 0.8;
 }
 
+.mg-auto{
+    margin: 0 auto;
+}
+
 /* Quotes */
 .quotes{
     display: flex;
@@ -87,4 +91,66 @@
 
 .image{
     border-radius: 50px;
+}
+
+/* Team */
+.content-team{
+    text-align: center;
+    background: #F4F0EC;
+    padding-bottom: 100px;
+}
+
+.title{
+    margin: 0 auto;
+    width: 26%;
+    padding: 100px 0 40px;
+    text-align: center;
+}
+
+
+.member{
+    display: flex;
+    justify-content: center;
+}
+
+.image-member-team{
+    border-radius: 55px;
+    padding: 0 20px;
+}
+
+.member-3{
+    width: 22%;
+    background: #fff;
+}
+
+.info-member-3{
+    padding: 50px 0;
+}
+
+.social{
+    font-size: 24px;
+    padding: 0 5%;
+}
+
+/* Mail Box */
+.info-mail{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.info-user{
+    padding: 30px;
+}
+
+.info-user input{
+    width: 20%;
+    height: 40px;
+    margin: 0 1%;
+    padding: 0 10px;
+}
+
+.info-mail .note-input{
+    width: 40%;
+    height: 40px;
+    padding: 0 10px;
 }
