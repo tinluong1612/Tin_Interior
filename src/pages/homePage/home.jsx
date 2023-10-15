@@ -47,8 +47,8 @@ function Home() {
             Read More
             {/* icon mui ten */}
             <div className="arrow">
-                <FontAwesomeIcon icon={faArrowRight} />
-              </div>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
             {/* <i className="arrow bx bx-right-arrow-alt" /> */}
           </button>
         </div>
@@ -101,7 +101,7 @@ function Home() {
           <div className="contact-about-us">
             {/* icon-phone */}
             <div className="phone-icon">
-                <FontAwesomeIcon icon={faPhone} />
+              <FontAwesomeIcon icon={faPhone} />
             </div>
             {/* <i className="phone-icon bx bx-phone" /> */}
             <div className="number">
@@ -113,8 +113,8 @@ function Home() {
             Get Free Estimate
             {/* icon mui ten */}
             <div className="arrow">
-                <FontAwesomeIcon icon={faArrowRight} />
-              </div>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
             {/* <i className="arrow bx bx-right-arrow-alt" /> */}
           </button>
         </div>
@@ -219,7 +219,7 @@ function Home() {
       </div>
       {/* Project */}
       <div className="project">
-        <div className="heading">
+        <div className="heading-project">
           <h1 className="title">Follow Our Projects</h1>
           <p>
             It is a long established fact that a reader will be distracted by the of
@@ -242,7 +242,7 @@ function Home() {
                 </div>
                 <button className="chevron-right-icon">
                   {/* icon */}
-                  <FontAwesomeIcon icon={faChevronRight}/>
+                  <FontAwesomeIcon icon={faChevronRight} />
                   {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
                 </button>
               </div>
@@ -261,7 +261,7 @@ function Home() {
                 </div>
                 <button className="chevron-right-icon">
                   {/* icon */}
-                  <FontAwesomeIcon icon={faChevronRight}/>
+                  <FontAwesomeIcon icon={faChevronRight} />
                   {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
                 </button>
               </div>
@@ -282,7 +282,7 @@ function Home() {
                 </div>
                 <button className="chevron-right-icon">
                   {/* icon */}
-                <FontAwesomeIcon icon={faChevronRight}/>
+                  <FontAwesomeIcon icon={faChevronRight} />
                   {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
                 </button>
               </div>
@@ -301,7 +301,7 @@ function Home() {
                 </div>
                 <button className="chevron-right-icon">
                   {/* icon */}
-                  <FontAwesomeIcon icon={faChevronRight}/>
+                  <FontAwesomeIcon icon={faChevronRight} />
                   {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
                 </button>
               </div>
@@ -374,7 +374,7 @@ function Home() {
               <p>26 December,2022 </p>
               <button className="chevron-right-icon">
                 {/* icon mui ten */}
-              <FontAwesomeIcon icon={faChevronRight}/>
+                <FontAwesomeIcon icon={faChevronRight} />
                 {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
               </button>
             </div>
@@ -393,7 +393,7 @@ function Home() {
               <p>26 December,2022 </p>
               <button className="chevron-right-icon">
                 {/* icon mui ten */}
-                <FontAwesomeIcon icon={faChevronRight}/>
+                <FontAwesomeIcon icon={faChevronRight} />
                 {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
               </button>
             </div>
@@ -412,7 +412,7 @@ function Home() {
               <p>26 December,2022 </p>
               <button className="chevron-right-icon">
                 {/* icon mui ten */}
-                <FontAwesomeIcon icon={faChevronRight}/>
+                <FontAwesomeIcon icon={faChevronRight} />
                 {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
               </button>
             </div>
@@ -422,14 +422,14 @@ function Home() {
       {/* Contact */}
       <div className="col-60 contact">
         <div className="heading">
-          <h1 className="title">Wanna join the interno?</h1>
+          <h1>Wanna join the interno?</h1>
           <p>It is a long established fact will be distracted.</p>
           <button className="contact-us">
             <p>Contact With Us</p>
             <div className="arrow-contact">
               <FontAwesomeIcon icon={faArrowRight} />
             </div>
-            <i className="arrow-contact bx bx-right-arrow-alt" />
+            {/* <i className="arrow-contact bx bx-right-arrow-alt" /> */}
           </button>
         </div>
       </div>

@@ -238,16 +238,16 @@
 
 }
 
-.heading {
+.heading-project {
     text-align: center;
     padding: 0 0 25px;
 }
 
-.heading .title {
+.heading-project .title {
     padding-bottom: 10px;
 }
 
-.heading p {
+.heading-project p {
     font-family: Jost;
     font-size: 18px;
     width: 600px;
@@ -382,6 +382,7 @@
 }
 
 .heading{
+    text-align: center;
     padding-top: 50px;
 }
 
@@ -396,6 +397,7 @@
     padding: 25px 90px;
     border-radius: 20px;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
 .arrow-contact{
