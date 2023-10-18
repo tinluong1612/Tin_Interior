@@ -75,8 +75,8 @@ function Footer() {
                 <div className="col-20">
                     <h2 className="content">Contact</h2>
                     <p className="info">55 East Birchwood Ave. Brooklyn, New York 11201</p>
-                    <p className="mgtd-45 info">khanhtin.luong1612@gmail.com</p>
-                    <p className="mgtd-45 info">(+84) 81330 - 0435</p>
+                    <p className="mgtd-45 info">contact@interno.com</p>
+                    <p className="mgtd-45 info">(123) 456 - 7890</p>
                 </div>
             </div>
             {/* Coppy Right */}
