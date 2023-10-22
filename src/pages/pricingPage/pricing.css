@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col-25{
+    width: 22%;
+}
+
+.f{
+    font-family: Jost;
+}
+
+.fz-18{
+    font-size: 18px;
+}
+
+/* Price */
+.all-price{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.item-price{
+    display: inline-block;
+    background: #F4F0EC;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 20px;
+    border-radius: 30px;
+}
+
+.item-price:hover{
+    filter: brightness(90%);
+}
+
+.header-price{
+    padding-bottom: 30px;
+}
+
+.title-price{
+    padding-bottom: 20px;
+}
+
+.header-price p {
+    display: inline-flex;
+}
+
+.body-price p{
+    padding: 10px 0;
+}
+
+.content-price{
+    padding: 30px 0;
+}
+
+.get-pricing{
+    background: #CDA274;
+    color: #fff;
+    border: none;
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.get-pricing:hover{
+    background: #292F36;
+}

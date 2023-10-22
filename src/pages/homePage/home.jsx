@@ -233,7 +233,7 @@ function Home() {
               <img
                 src="/src/assets/img/img_homePage/project1-home.png"
                 alt=""
-                className="image-project-1"
+                className="image-project image-project-1"
               />
               <div className="info-project">
                 <div className="name-project">
@@ -252,7 +252,7 @@ function Home() {
               <img
                 src="/src/assets/img/img_homePage/project3-home.png"
                 alt=""
-                className="image-project-2"
+                className="image-project image-project-2"
               />
               <div className="info-project">
                 <div className="name-project">
@@ -273,7 +273,7 @@ function Home() {
               <img
                 src="/src/assets/img/img_homePage/project2-home.png"
                 alt=""
-                className="image-project-3"
+                className="image-project image-project-3"
               />
               <div className="info-project">
                 <div className="name-project">
@@ -292,7 +292,7 @@ function Home() {
               <img
                 src="/src/assets/img/img_homePage/project4-home.png"
                 alt=""
-                className="image-project-4"
+                className="image-project image-project-4"
               />
               <div className="info-project">
                 <div className="name-project">

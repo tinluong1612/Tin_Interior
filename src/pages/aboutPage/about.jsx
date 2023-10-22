@@ -55,7 +55,7 @@ function About() {
             {/* The End Result */}
             <div className="pd-100 what-we-do">
                 <img
-                    src="/src/assets/img/img_aboutPage/aboutUs1-about.jpg"
+                    src="/src/assets/img/img_aboutPage/aboutUs2-about.jpg"
                     width="35%"
                     alt=""
                     className="image"

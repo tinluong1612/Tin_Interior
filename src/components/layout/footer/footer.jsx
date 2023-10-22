@@ -35,7 +35,7 @@ function Footer() {
                 </div>
                 {/* Pages */}
                 <div className="col-10 page-content">
-                    <h2 className="content">Pages</h2>
+                    <h2>Pages</h2>
                     <a href="#" className="info">
                         About Us
                     </a>
@@ -54,7 +54,7 @@ function Footer() {
                 </div>
                 {/* Services */}
                 <div className="col-10 page-content">
-                    <h2 className="content">Services</h2>
+                    <h2>Services</h2>
                     <a href="#" className="info">
                         Kitchan
                     </a>
@@ -73,7 +73,7 @@ function Footer() {
                 </div>
                 {/* Contact */}
                 <div className="col-20">
-                    <h2 className="content">Contact</h2>
+                    <h2>Contact</h2>
                     <p className="info">55 East Birchwood Ave. Brooklyn, New York 11201</p>
                     <p className="mgtd-45 info">contact@interno.com</p>
                     <p className="mgtd-45 info">(123) 456 - 7890</p>

@@ -93,6 +93,13 @@
     border-radius: 50px;
 }
 
+.image:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.0.5);
+    transition: 0.3s;
+    filter:brightness(80%);
+}
+
 /* Team */
 .content-team{
     text-align: center;
@@ -116,6 +123,13 @@
 .image-member-team{
     border-radius: 55px;
     padding: 0 20px;
+}
+
+.image-member-team:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.0.5);
+    transition: 0.3s;
+    filter:brightness(80%);
 }
 
 .member-3{
