@@ -382,7 +382,7 @@ function Home() {
           {/* Blog-2 */}
           <div className="item-blog">
             <img
-              src="/src/assets/img/img_homePage/blog1-home.png"
+              src="/src/assets/img/img_homePage/blog2-home.png"
               alt=""
               className="image-blog"
             />
@@ -401,7 +401,7 @@ function Home() {
           {/* Blog-3 */}
           <div className="item-blog">
             <img
-              src="/src/assets/img/img_homePage/blog1-home.png"
+              src="/src/assets/img/img_homePage/blog3-home.png"
               alt=""
               className="image-blog"
             />
