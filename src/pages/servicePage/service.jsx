@@ -26,7 +26,10 @@ function Service() {
                         <button className="readmore-btn">
                             Read More
                             {/* icon mui ten */}
-                            <i className="arrow bx bx-right-arrow-alt" />
+                            <div className="arrow">
+                                <FontAwesomeIcon icon={faArrowRight} />
+                                {/* <i className="arrow bx bx-right-arrow-alt" /> */}
+                            </div>
                         </button>
                     </div>
                     {/* item_2 */}
@@ -40,7 +43,10 @@ function Service() {
                             <button className="readmore-btn">
                                 Read More
                                 {/* icon mui ten */}
-                                <i className="arrow bx bx-right-arrow-alt" />
+                                <div className="arrow">
+                                    <FontAwesomeIcon icon={faArrowRight} />
+                                    {/* <i className="arrow bx bx-right-arrow-alt" /> */}
+                                </div>
                             </button>
                         </div>
                     </div>
@@ -55,7 +61,10 @@ function Service() {
                             <button className="readmore-btn">
                                 Read More
                                 {/* icon mui ten */}
-                                <i className="arrow bx bx-right-arrow-alt" />
+                                <div className="arrow">
+                                    <FontAwesomeIcon icon={faArrowRight} />
+                                    {/* <i className="arrow bx bx-right-arrow-alt" /> */}
+                                </div>
                             </button>
                         </div>
                     </div>
@@ -73,7 +82,10 @@ function Service() {
                         <button className="readmore-btn">
                             Read More
                             {/* icon mui ten */}
-                            <i className="arrow bx bx-right-arrow-alt" />
+                            <div className="arrow">
+                                <FontAwesomeIcon icon={faArrowRight} />
+                                {/* <i className="arrow bx bx-right-arrow-alt" /> */}
+                            </div>
                         </button>
                     </div>
                     {/* item_2 */}
@@ -87,7 +99,10 @@ function Service() {
                             <button className="readmore-btn">
                                 Read More
                                 {/* icon mui ten */}
-                                <i className="arrow bx bx-right-arrow-alt" />
+                                <div className="arrow">
+                                    <FontAwesomeIcon icon={faArrowRight} />
+                                    {/* <i className="arrow bx bx-right-arrow-alt" /> */}
+                                </div>
                             </button>
                         </div>
                     </div>
@@ -102,7 +117,10 @@ function Service() {
                             <button className="readmore-btn">
                                 Read More
                                 {/* icon mui ten */}
-                                <i className="arrow bx bx-right-arrow-alt" />
+                                <div className="arrow">
+                                    <FontAwesomeIcon icon={faArrowRight} />
+                                    {/* <i className="arrow bx bx-right-arrow-alt" /> */}
+                                </div>
                             </button>
                         </div>
                     </div>
