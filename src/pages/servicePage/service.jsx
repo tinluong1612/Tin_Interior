@@ -7,7 +7,7 @@ function Service() {
         <div className="service">
             {/* Banner */}
             <img
-                src="/src/assets/img/img_servicePage/banner-service.jpg"
+                src={`assets/img/img_servicePage/banner-service.jpg`}
                 width="100%"
                 alt=""
             />
@@ -140,13 +140,13 @@ function Service() {
                     {/* item-1 */}
                     <div className="item-homeww">
                         <img
-                            src="/src/assets/img/img_servicePage/hww1-service.jpg"
+                            src={`assets/img/img_servicePage/hww1-service.jpg`}
                             alt=""
                             className="image-homeww"
                         />
                         <div className="info-item-homeww">
                             <img
-                                src="/src/assets/img/img_servicePage/icon1-service.png"
+                                src={`assets/img/img_servicePage/icon1-service.png`}
                                 alt=""
                                 className="icon-item"
                             />
@@ -161,7 +161,7 @@ function Service() {
                     <div className="item-homeww">
                         <div className="info-item-homeww">
                             <img
-                                src="/src/assets/img/img_servicePage/icon2-service.png"
+                                src={`assets/img/img_servicePage/icon2-service.png`}
                                 alt=""
                                 className="icon-item"
                             />
@@ -172,7 +172,7 @@ function Service() {
                             </p>
                         </div>
                         <img
-                            src="/src/assets/img/img_servicePage/hww2-service.jpg"
+                            src={`assets/img/img_servicePage/hww2-service.jpg`}
                             alt=""
                             className="image-homeww"
                         />
@@ -180,13 +180,13 @@ function Service() {
                     {/* item-3 */}
                     <div className="item-homeww">
                         <img
-                            src="/src/assets/img/img_servicePage/hww3-service.jpg"
+                            src={`assets/img/img_servicePage/hww3-service.jpg`}
                             alt=""
                             className="image-homeww"
                         />
                         <div className="info-item-homeww">
                             <img
-                                src="/src/assets/img/img_servicePage/icon3-service.png"
+                                src={`assets/img/img_servicePage/icon3-service.png`}
                                 alt=""
                                 className="icon-item"
                             />
@@ -201,7 +201,7 @@ function Service() {
                     <div className="item-homeww">
                         <div className="info-item-homeww">
                             <img
-                                src="/src/assets/img/img_servicePage/icon4-service.png"
+                                src={`assets/img/img_servicePage/icon4-service.png`}
                                 alt=""
                                 className="icon-item"
                             />
@@ -212,7 +212,7 @@ function Service() {
                             </p>
                         </div>
                         <img
-                            src="/src/assets/img/img_servicePage/hww4-service.jpg"
+                            src={`assets/img/img_servicePage/hww4-service.jpg`}
                             alt=""
                             className="image-homeww"
                         />

@@ -7,7 +7,7 @@ function About() {
         <div className="about">
             {/* Banner */}
             <img
-                src="/src/assets/img/img_aboutPage/banner-about.png"
+                src={`assets/img/img_aboutPage/banner-about.png`}
                 width="100%"
                 alt=""
                 className="image-banner"
@@ -46,7 +46,7 @@ function About() {
                     </button>
                 </div>
                 <img
-                    src="/src/assets/img/img_aboutPage/aboutUs1-about.jpg"
+                    src={`assets/img/img_aboutPage/aboutUs1-about.jpg`}
                     width="35%"
                     alt=""
                     className="image"
@@ -55,7 +55,7 @@ function About() {
             {/* The End Result */}
             <div className="pd-100 what-we-do">
                 <img
-                    src="/src/assets/img/img_aboutPage/aboutUs2-about.jpg"
+                    src={`assets/img/img_aboutPage/aboutUs2-about.jpg`}
                     width="35%"
                     alt=""
                     className="image"
@@ -87,12 +87,12 @@ function About() {
                 <div className="members-team">
                     <div className="member">
                         <img
-                            src="/src/assets/img/img_aboutPage/person1-about.png"
+                            src={`assets/img/img_aboutPage/person1-about.png`}
                             alt=""
                             className="image-member-team"
                         />
                         <img
-                            src="/src/assets/img/img_aboutPage/person2-about.png"
+                            src={`assets/img/img_aboutPage/person2-about.png`}
                             alt=""
                             className="image-member-team"
                         />
@@ -114,7 +114,7 @@ function About() {
                             </div>
                         </div>
                         <img
-                            src="/src/assets/img/img_aboutPage/person3-about.png"
+                            src={`assets/img/img_aboutPage/person3-about.png`}
                             alt=""
                             className="image-member-team"
                         />

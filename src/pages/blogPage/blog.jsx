@@ -7,7 +7,7 @@ function Blog() {
         <div className="blog-page">
             <div className="banner">
                 <img
-                    src="./banner-blog.jpg"
+                    src={`assets/img/img_blogPage/banner-blog.jpg`}
                     width="100%"
                     alt=""
                 />
@@ -18,7 +18,7 @@ function Blog() {
                     <h1 className="mb-30">Latest Post</h1>
                     <div className="containner">
                         <img
-                            src="./latestpost-blog.png"
+                            src={`assets/img/img_blogPage/latestpost-blog.png`}
                             width="44%"
                             alt=""
                             className="image-latest-post"
@@ -53,7 +53,7 @@ function Blog() {
                         {/* Blog-1 */}
                         <div className="item-blog">
                             <img
-                                src="./news1-blog.png"
+                                src={`assets/img/img_blogPage/news1-blog.png`}
                                 alt=""
                                 className="image-blog"
                             />
@@ -71,7 +71,7 @@ function Blog() {
                         {/* Blog-2 */}
                         <div className="item-blog color-blog">
                             <img
-                                src="./news2-blog.png"
+                                src={`assets/img/img_blogPage/news2-blog.png`}
                                 alt=""
                                 className="image-blog"
                             />
@@ -89,7 +89,7 @@ function Blog() {
                         {/* Blog-3 */}
                         <div className="item-blog">
                             <img
-                                src="./news3-blog.png"
+                                src={`assets/img/img_blogPage/news3-blog.png`}
                                 alt=""
                                 className="image-blog"
                             />
@@ -109,7 +109,7 @@ function Blog() {
                         {/* Blog-4 */}
                         <div className="item-blog">
                             <img
-                                src="./news4-blog.png"
+                                src={`assets/img/img_blogPage/news4-blog.png`}
                                 alt=""
                                 className="image-blog"
                             />
@@ -127,7 +127,7 @@ function Blog() {
                         {/* Blog-5 */}
                         <div className="item-blog color-blog">
                             <img
-                                src="./news5-blog.png"
+                                src={`assets/img/img_blogPage/news5-blog.png`}
                                 alt=""
                                 className="image-blog"
                             />
@@ -145,7 +145,7 @@ function Blog() {
                         {/* Blog-6 */}
                         <div className="item-blog">
                             <img
-                                src="./news6-blog.png"
+                                src={`assets/img/img_blogPage/news6-blog.png`}
                                 alt=""
                                 className="image-blog"
                             />
