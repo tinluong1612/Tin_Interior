@@ -8,7 +8,7 @@ function Home() {
       {/* Banner */}
       <div className="banner">
         <img
-          src="/src/assets/img/img_homePage/banner-home.jpg"
+          src="./banner-home.jpg"
           width="100%"
           height="768px"
           alt=""
@@ -119,7 +119,7 @@ function Home() {
           </button>
         </div>
         <img
-          src="/src/assets/img/img_homePage/about-home.jpg"
+          src="./about-home.jpg"
           width="420px"
           height="470px"
           alt=""
@@ -137,7 +137,7 @@ function Home() {
           <div className="person">
             <div className="avt-info-person">
               <img
-                src="/src/assets/img/img_homePage/person1-home.png"
+                src="./person1-home.png"
                 alt=""
                 className="image-person"
               />
@@ -155,7 +155,7 @@ function Home() {
           <div className="person">
             <div className="avt-info-person">
               <img
-                src="/src/assets/img/img_homePage/person2-home.png"
+                src="./person2-home.png"
                 alt=""
                 className="image-person"
               />
@@ -173,7 +173,7 @@ function Home() {
           <div className="person">
             <div className="avt-info-person">
               <img
-                src="/src/assets/img/img_homePage/person3-home.png"
+                src="./person3-home.png"
                 alt=""
                 className="image-person"
               />
@@ -192,27 +192,27 @@ function Home() {
       {/* Client-Logo */}
       <div className="client-logo">
         <img
-          src="/src/assets/img/img_homePage/client1-home.png"
+          src="./client1-home.png"
           alt=""
           className="mg-30 image-client"
         />
         <img
-          src="/src/assets/img/img_homePage/client2-home.png"
+          src="./client2-home.png"
           alt=""
           className="image-client"
         />
         <img
-          src="/src/assets/img/img_homePage/client3-home.png"
+          src="./client3-home.png"
           alt=""
           className="mg-30 image-client"
         />
         <img
-          src="/src/assets/img/img_homePage/client4-home.png"
+          src="./client4-home.png"
           alt=""
           className="mg-30 image-client"
         />
         <img
-          src="/src/assets/img/img_homePage/client5-home.png"
+          src="./client5-home.png"
           alt=""
           className="mg-30 image-client"
         />
@@ -231,7 +231,7 @@ function Home() {
             {/* Project-1 */}
             <div className="all-info-project">
               <img
-                src="/src/assets/img/img_homePage/project1-home.png"
+                src="./project1-home.png"
                 alt=""
                 className="image-project image-project-1"
               />
@@ -250,7 +250,7 @@ function Home() {
             {/* Project-2 */}
             <div className="all-info-project">
               <img
-                src="/src/assets/img/img_homePage/project3-home.png"
+                src="./project3-home.png"
                 alt=""
                 className="image-project image-project-2"
               />
@@ -271,7 +271,7 @@ function Home() {
             {/* Project-3 */}
             <div className="all-info-project">
               <img
-                src="/src/assets/img/img_homePage/project2-home.png"
+                src="./project2-home.png"
                 alt=""
                 className="image-project image-project-3"
               />
@@ -290,7 +290,7 @@ function Home() {
             {/* Project-4 */}
             <div className="all-info-project">
               <img
-                src="/src/assets/img/img_homePage/project4-home.png"
+                src="./project4-home.png"
                 alt=""
                 className="image-project image-project-4"
               />
@@ -314,7 +314,7 @@ function Home() {
         <div className="all-info-counter">
           <div className="info-counter">
             <img
-              src="/src/assets/img/img_homePage/12.png"
+              src="./12.png"
               alt=""
               className="image-counter"
             />
@@ -323,7 +323,7 @@ function Home() {
           <hr className="vertical" />
           <div className="info-counter">
             <img
-              src="/src/assets/img/img_homePage/85.png"
+              src="./85.png"
               alt=""
               className="image-counter"
             />
@@ -332,7 +332,7 @@ function Home() {
           <hr className="vertical" />
           <div className="info-counter">
             <img
-              src="/src/assets/img/img_homePage/15.png"
+              src="./15.png"
               alt=""
               className="image-counter"
             />
@@ -341,7 +341,7 @@ function Home() {
           <hr className="vertical" />
           <div className="info-counter">
             <img
-              src="/src/assets/img/img_homePage/95.png"
+              src="./95.png"
               alt=""
               className="image-counter"
             />
@@ -363,7 +363,7 @@ function Home() {
           {/* Blog-1 */}
           <div className="item-blog">
             <img
-              src="/src/assets/img/img_homePage/blog1-home.png"
+              src="./blog1-home.png"
               alt=""
               className="image-blog"
             />
@@ -382,7 +382,7 @@ function Home() {
           {/* Blog-2 */}
           <div className="item-blog">
             <img
-              src="/src/assets/img/img_homePage/blog2-home.png"
+              src="./blog2-home.png"
               alt=""
               className="image-blog"
             />
@@ -401,7 +401,7 @@ function Home() {
           {/* Blog-3 */}
           <div className="item-blog">
             <img
-              src="/src/assets/img/img_homePage/blog3-home.png"
+              src="./blog3-home.png"
               alt=""
               className="image-blog"
             />
