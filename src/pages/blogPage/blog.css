@@ -47,6 +47,13 @@
     border-radius: 30px;
 }
 
+.image-latest-post:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.0.5);
+    transition: 0.3s;
+    filter:brightness(80%);
+}
+
 .info-latest-blog{
     margin: 0 70px;
 }
