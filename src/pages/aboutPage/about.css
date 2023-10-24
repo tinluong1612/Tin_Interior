@@ -94,8 +94,8 @@
 }
 
 .image:hover{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.0.5);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
     transition: 0.3s;
     filter:brightness(80%);
 }
@@ -126,8 +126,8 @@
 }
 
 .image-member-team:hover{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.0.5);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
     transition: 0.3s;
     filter:brightness(80%);
 }

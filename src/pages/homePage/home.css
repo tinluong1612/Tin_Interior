@@ -271,8 +271,8 @@
     margin: 20px;
 }
 .image-project:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.0.5);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
     transition: 0.3s;
     filter:brightness(80%);
 }
