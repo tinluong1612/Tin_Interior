@@ -4,8 +4,6 @@ import '../../../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-// import '../../../../public/assets/img/img_homePage/banner-home.jpg'
-
 function Header() {
     return <div>
         <div className="col-60 header">
