@@ -13,19 +13,19 @@ function Header() {
             </div>
             <span className="menubar">
                 <ul className="menubar-item">
-                    <a href="./">Home</a>
+                    <a href="/">Home</a>
                 </ul>
                 <ul className="menubar-item">
-                    <a href="./About">About</a>
+                    <a href="/About">About</a>
                 </ul>
                 <ul className="menubar-item">
-                    <a href="./Service">Service</a>
+                    <a href="/Service">Service</a>
                 </ul>
                 <ul className="menubar-item">
-                    <a href="./Pricing">Pricing</a>
+                    <a href="/Pricing">Pricing</a>
                 </ul>
                 <ul className="menubar-item">
-                    <a href="./Blog">Blog</a>
+                    <a href="/Blog">Blog</a>
                 </ul>
                 <div className="search-box">
                     <input className="search-box_input" type="text" />
