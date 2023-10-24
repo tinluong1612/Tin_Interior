@@ -11,7 +11,7 @@ function Footer() {
             <div className="main">
                 <div className="col-20 sub-content">
                     <div className="logo">
-                        <img src="/src/assets/img/Logo.png" width="30px" height="30px" alt="" />
+                        <img src={`assets/img/Logo.png`} width="30px" height="30px" alt="" />
                         <div className="name">Interno</div>
                     </div>
                     <p className="slogan">
