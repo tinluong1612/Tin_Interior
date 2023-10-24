@@ -10,7 +10,7 @@ function Header() {
     return <div>
         <div className="col-60 header">
             <div className="logo">
-                <img src="../../../../public/assets/img/Logo.png" width="40px" height="40px" alt="" />
+                <img src={`assets/img/Logo.png`} width="40px" height="40px" alt="" />
                 <div className="name">Interno</div>
             </div>
             <span className="menubar">
