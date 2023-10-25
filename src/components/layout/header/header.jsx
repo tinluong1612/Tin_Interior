@@ -16,10 +16,10 @@ function Header() {
                     <a href="/">Home</a>
                 </ul>
                 <ul className="menubar-item">
-                    <a href="/About">About</a>
+                    <a href="/about">About</a>
                 </ul>
                 <ul className="menubar-item">
-                    <a href="/Service">Service</a>
+                    <a href="/service">Service</a>
                 </ul>
                 <ul className="menubar-item">
                     <a href="/Pricing">Pricing</a>
