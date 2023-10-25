@@ -120,7 +120,7 @@ function Home() {
         </div>
         <img
           src={`assets/img/img_homePage/about-home.jpg`}
-          width="420px"
+          width="30%"
           height="470px"
           alt=""
           className="image-about-us"
@@ -220,18 +220,18 @@ function Home() {
       {/* Project */}
       <div className="project">
         <div className="heading-project">
-          <h1 className="title">Follow Our Projects</h1>
+          <h1>Follow Our Projects</h1>
           <p>
             It is a long established fact that a reader will be distracted by the of
             readable content of page lookings at its layouts points.
           </p>
         </div>
         <div className="container-project">
-          <div className="2-projects">
+          <div className="top-projects">
             {/* Project-1 */}
             <div className="all-info-project">
               <img
-                src={`assets/img/img_homePage/project1-home.png`}
+                src={`assets/img/img_homePage/project1-home.png`} width="100%"
                 alt=""
                 className="image-project image-project-1"
               />
@@ -250,7 +250,7 @@ function Home() {
             {/* Project-2 */}
             <div className="all-info-project">
               <img
-                src={`assets/img/img_homePage/project3-home.png`}
+                src={`assets/img/img_homePage/project2-home.png`} width="100%"
                 alt=""
                 className="image-project image-project-2"
               />
@@ -267,11 +267,11 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="2-projects">
+          <div className="top-projects">
             {/* Project-3 */}
             <div className="all-info-project">
               <img
-                src={`assets/img/img_homePage/project2-home.png`}
+                src={`assets/img/img_homePage/project3-home.png`} width="100%"
                 alt=""
                 className="image-project image-project-3"
               />
@@ -290,7 +290,7 @@ function Home() {
             {/* Project-4 */}
             <div className="all-info-project">
               <img
-                src={`assets/img/img_homePage/project4-home.png`}
+                src={`assets/img/img_homePage/project4-home.png`} width="100%"
                 alt=""
                 className="image-project image-project-4"
               />
@@ -352,8 +352,8 @@ function Home() {
       {/* Blog */}
       <div className="blog">
         <div className="heading">
-          <h1 className="title">Articles &amp; News</h1>
-          <p>
+          <h1 className="title-blog">Articles &amp; News</h1>
+          <p className='blog-p'>
             It is a long established fact that a reader will be distracted by the of
             readable content of a page when lookings at its layouts the points of
             using.

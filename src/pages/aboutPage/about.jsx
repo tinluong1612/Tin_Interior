@@ -1,6 +1,7 @@
 import './about.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPhone, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function About() {
     return <div>
@@ -98,14 +99,26 @@ function About() {
                         />
                         <div className="image-member-team member-3">
                             <div className="info-member-3">
-                                    <h2>Nattasha Julie</h2>
-                                    <p className="f fz-18">Design Australia</p>
+                                <h2>Nattasha Julie</h2>
+                                <p className="f fz-18">Design Australia</p>
 
-                                <div className="pd-100 social-member">
-                                    <i className="social bx bxl-facebook" />
+                                <div className="social-member">
+                                    <div className="social">
+                                        <FontAwesomeIcon icon={faFacebookF} />
+                                    </div>
+                                    <div className="social">
+                                        <FontAwesomeIcon icon={faTwitter} />
+                                    </div>
+                                    <div className="social">
+                                        <FontAwesomeIcon icon={faLinkedin} />
+                                    </div>
+                                    <div className="social">
+                                        <FontAwesomeIcon icon={faInstagram} />
+                                    </div>
+                                    {/* <i className="social bx bxl-facebook" />
                                     <i className="social bx bxl-twitter" />
                                     <i className="social bx bxl-linkedin" />
-                                    <i className="social bx bxl-instagram" />
+                                    <i className="social bx bxl-instagram" /> */}
                                 </div>
                                 <div className="f fz-18 contact-member">
                                     <p>+1 (378) 400-1234</p>

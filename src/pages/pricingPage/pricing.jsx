@@ -14,7 +14,7 @@ function Pricing() {
             {/* Price */}
             <div className="all-price">
                 {/* item 1 */}
-                <div className="col-25 fz-18 item-price">
+                <div className="w-18 fz-18 item-price">
                     <div className="header-price">
                         <h2 className="title-price">Design advices</h2>
                         <h1 className="price">$29</h1>
@@ -38,7 +38,7 @@ function Pricing() {
                     </div>
                 </div>
                 {/* item 2 */}
-                <div className="col-25 fz-18 item-price">
+                <div className="w-18 fz-18 item-price">
                     <div className="header-price">
                         <h2 className="title-price">Complete interior</h2>
                         <h1 className="price">$39</h1>
@@ -62,7 +62,7 @@ function Pricing() {
                     </div>
                 </div>
                 {/* item 3 */}
-                <div className="col-25 item-price">
+                <div className="w-18 item-price">
                     <div className="header-price">
                         <h2 className="title-price">Furniture design</h2>
                         <h1 className="price">$59</h1>
