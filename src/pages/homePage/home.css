@@ -435,3 +435,138 @@
     color: #000;
     font-size: 25px;
 }
+
+/* RESPONSIVE */
+
+/* MOBILE: WIDTH < 740px */
+@media only screen and (max-width: 46.1875em) {
+    /* Banner */
+    .image-banner {
+        height: 100%;
+    }
+
+    .intro {
+        padding: 115px 20px;
+        margin: 0 20px;
+        transform: none;
+    }
+
+    .intro .title-banner{
+        font-size: 20px;
+        width: 150%;
+    }
+
+    .intro .sub-content-banner p{
+        font-size: x-small;
+        padding: 5px 0;
+        width: 150%;
+    }
+
+    .sub-content-banner .started-btn{
+        padding: 5px 5px;
+    }
+
+    .work {
+        width: 100%;
+        flex-direction: column;
+    }
+    .work .item{
+        width: 100%;
+    }
+
+    /* About Us */
+    .about-us{
+        flex-direction: column-reverse;
+    }
+    .image-about-us{
+        height: 90%;
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .sub-content-about{
+        width: 100%;
+    }
+
+    /* Testimonial */
+    .testimonial{
+        width: 100% !important;
+    }
+    .avt-info-person{
+        flex-direction: column;
+    }
+    .all-person{
+        flex-direction: column;
+    }
+    .person{
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    /* client-logo */
+    .client-logo{
+        text-align: center;
+        padding: 20px;
+        position: unset;
+    }
+
+    /* Project */
+    .project{
+        width: 100%;
+    }
+
+    .heading-project p{
+        width: 100%;
+    }
+
+    .top-projects{
+        flex-direction: column;
+    }
+
+    .image-project{
+        width: 153%;
+    }
+
+    .info-project{
+        width: 153%;
+    }
+
+    /* Counter */
+    .all-info-counter{
+        display: grid;
+    }
+
+    .all-info-counter .info-counter{
+        padding: 20px 0;
+    }
+
+    .all-info-counter .vertical{
+        display: none;
+    }
+
+    /* Blog */
+    .blog-p{
+        width: 90%;
+    }
+
+    .all-blog{
+        flex-direction: column;
+    }
+
+    .item-blog{
+        margin: 20px auto !important;
+    }
+
+    /* Contact */
+    .contact{
+        width: 90% !important;
+    }
+
+    .contact-us{
+        width: 80% !important;
+    }
+}
+
+/* TABLET: WIDTH >= 740px and WIDTH < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
+
