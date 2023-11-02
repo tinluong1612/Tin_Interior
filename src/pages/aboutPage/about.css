@@ -177,3 +177,74 @@
     height: 40px;
     padding: 0 10px;
 }
+
+/* RESPONSIVE */
+
+/* MOBILE: WIDTH < 740px */
+@media only screen and (max-width: 46.1875em) {
+    /* Quotes */
+    .border-quotes{
+        width: 90%;
+    }
+
+    /* What we do */
+    .what-we-do{
+        flex-direction: column-reverse;
+    }
+
+    .info-content{
+        text-align: center;
+    }
+
+    .get-free-btn{
+        margin: 0 auto;
+    }
+    .image{
+        width: 90%;
+        display: flex;
+        margin-left: 20px
+    }
+    .content{
+        width: 100%;
+    }
+
+    /* Team */
+    .content-team{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title{
+        width: 90%;
+    }
+
+    .member{
+        flex-direction: column;
+    }
+
+    .member-3{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .image-member-team{
+        width: 100%;
+        padding: 30px;
+    }
+    /* Mail box */
+    .txt-name{
+        width: 100% !important;
+        margin: 0 0 !important;
+    }
+
+    .txt-email{
+        width: 100% !important;
+        margin: 20px 0 !important;
+    }
+
+    .note-input{
+        width: 90% !important;
+    }
+}
+
+/* TABLET: WIDTH >= 740px and WIDTH < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}

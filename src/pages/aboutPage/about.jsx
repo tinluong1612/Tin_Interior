@@ -139,8 +139,8 @@ function About() {
                 <h1 className="title">Creative project? Let's have a productive talk.</h1>
                 <div className="fz-18 info-mail">
                     <div className="info-user">
-                        <input type="text" name="" placeholder="Name" id="" />
-                        <input type="text" name="" placeholder="Email" id="" />
+                        <input className='txt-name' type="text" name="" placeholder="Name" id="" />
+                        <input className='txt-email' type="text" name="" placeholder="Email" id="" />
                     </div>
                     <input
                         type="text"
