@@ -192,6 +192,10 @@
         flex-direction: column-reverse;
     }
 
+    .what-we-do-2{
+        flex-direction: column !important;
+    }
+
     .info-content{
         text-align: center;
     }
