@@ -54,7 +54,7 @@ function About() {
                 />
             </div>
             {/* The End Result */}
-            <div className="pd-100 what-we-do">
+            <div className="pd-100 what-we-do what-we-do-2">
                 <img
                     src={`assets/img/img_aboutPage/aboutUs2-about.jpg`}
                     width="35%"
