@@ -158,7 +158,7 @@ function Service() {
                         </div>
                     </div>
                     {/* item-2 */}
-                    <div className="item-homeww">
+                    <div className="item-homeww item-homeww-2-4">
                         <div className="info-item-homeww">
                             <img
                                 src={`assets/img/img_servicePage/icon2-service.png`}
@@ -198,7 +198,7 @@ function Service() {
                         </div>
                     </div>
                     {/* item-4 */}
-                    <div className="item-homeww">
+                    <div className="item-homeww item-homeww-2-4">
                         <div className="info-item-homeww">
                             <img
                                 src={`assets/img/img_servicePage/icon4-service.png`}

@@ -143,3 +143,22 @@
     color: #000;
     font-size: 25px;
 }
+
+/* RESPONSIVE */
+
+/* MOBILE: WIDTH < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .homewework{
+        width: 90%;
+    }
+    .item-homeww{
+        flex-direction: column;
+    }
+
+    .item-homeww-2-4{
+        flex-direction: column-reverse !important;
+    }
+}
+
+/* TABLET: WIDTH >= 740px and WIDTH < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
