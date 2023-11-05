@@ -81,3 +81,51 @@
     justify-content: center;
     font-family: Jost;
 }
+
+/* RESPONSIVE */
+
+/* MOBILE: WIDTH < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .footer{
+        width: 100%;
+        margin: 0 !important;
+    }
+    .sub-content{
+        width: 19%;
+    }
+
+    .page-content{
+        width: 4%;
+    }
+
+    .page-content h2{
+        font-size: 18px;
+    }
+
+    .page-contact{
+        width: 28%;
+    }
+
+    .page-contact h2{
+        font-size: 18px;
+    }
+
+    .name{
+        font-size: 24px;
+    }
+
+    .slogan{
+        font-size: 14px;
+    }
+
+    .social{
+    }
+
+    .icon-social{
+        font-size: 18px;
+        margin: 0 5px;
+    }
+}
+
+/* TABLET: WIDTH >= 740px and WIDTH < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}

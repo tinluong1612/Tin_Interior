@@ -72,10 +72,11 @@ function Footer() {
                     </a>
                 </div>
                 {/* Contact */}
-                <div className="col-20">
+                <div className="col-20 page-contact">
                     <h2>Contact</h2>
                     <p className="info">55 East Birchwood Ave. Brooklyn, New York 11201</p>
-                    <p className="mgtd-45 info">contact@interno.com</p>
+                    <p className="mgtd-45 info">contact@interno
+                    .com</p>
                     <p className="mgtd-45 info">(123) 456 - 7890</p>
                 </div>
             </div>
