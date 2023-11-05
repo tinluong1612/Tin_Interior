@@ -494,7 +494,7 @@
 
     /* Testimonial */
     .testimonial{
-        width: 100% !important;
+        width: 90% !important;
     }
     .avt-info-person{
         flex-direction: column;
