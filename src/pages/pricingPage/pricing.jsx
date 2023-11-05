@@ -6,7 +6,7 @@ function Pricing() {
             {/* Banner */}
             <div className="banner">
                 <img
-                    src="/src/assets/img/img_pricingPage/banner_pricing.jpg"
+                    src={`assets/img/img_pricingPage/banner_pricing.jpg`}
                     width="100%"
                     alt=""
                 />
