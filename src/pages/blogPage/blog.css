@@ -132,3 +132,27 @@
 .next-page button:hover{
     background-color: #F4F0EC;
 }
+
+/* RESPONSIVE */
+
+/* MOBILE: WIDTH < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .containner{
+        flex-direction: column;
+    }
+
+    .image-latest-post{
+        width: 150%;
+    }
+
+    .info-latest-blog {
+        width: 100%;
+    }
+
+    .info-latest-blog h2{
+        padding-top: 50px;
+    }
+}
+
+/* TABLET: WIDTH >= 740px and WIDTH < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
