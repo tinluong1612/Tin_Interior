@@ -71,3 +71,16 @@
 .get-pricing:hover{
     background: #292F36;
 }
+
+/* RESPONSIVE */
+
+/* MOBILE: WIDTH < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .item-price{
+        width: 90%;
+        margin: 20px 0;
+    }
+}
+
+/* TABLET: WIDTH >= 740px and WIDTH < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
