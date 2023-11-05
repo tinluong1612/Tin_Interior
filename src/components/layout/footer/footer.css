@@ -89,6 +89,7 @@
     .footer{
         width: 100%;
         margin: 0 !important;
+        padding: 0 10px;
     }
     .sub-content{
         width: 19%;
@@ -124,6 +125,10 @@
     .icon-social{
         font-size: 18px;
         margin: 0 5px;
+    }
+
+    .line{
+        width: 100%;
     }
 }
 
