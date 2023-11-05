@@ -441,12 +441,16 @@
 /* MOBILE: WIDTH < 740px */
 @media only screen and (max-width: 46.1875em) {
     /* Banner */
+    .banner{
+        position: relative;
+    }
+
     .image-banner {
         height: 100%;
     }
 
     .intro {
-        padding: 165px 20px;
+        padding: 35px 20px;
         margin: 0 20px;
         transform: none;
     }
