@@ -82,3 +82,23 @@
 .search-box_open{
     width: 300px;
 }
+
+/* RESPONSIVE */
+
+/* MOBILE: WIDTH < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .header{
+        flex-direction: column;
+    }
+
+    .menubar-item{
+        padding: 10px;
+    }
+
+    .search-box{
+        display: none;
+    }
+}
+
+/* TABLET: WIDTH >= 740px and WIDTH < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
