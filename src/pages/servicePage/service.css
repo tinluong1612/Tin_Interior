@@ -153,6 +153,12 @@
     .homewework{
         width: 90%;
     }
+
+    .info-item-homeww{
+        padding: 0;
+        text-align: center;
+    }
+
     .item-homeww{
         flex-direction: column;
     }
