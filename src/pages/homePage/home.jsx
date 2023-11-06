@@ -105,7 +105,7 @@ function Home() {
             </div>
             {/* <i className="phone-icon bx bx-phone" /> */}
             <div className="number">
-              <p className="phone-number">0813 300 435</p>
+              <p className="phone-number">012345678</p>
               <p>Call Us Anytime</p>
             </div>
           </div>

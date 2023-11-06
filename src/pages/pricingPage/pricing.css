@@ -20,6 +20,26 @@
 }
 
 /* Price */
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner-text{
+    left: 0;
+    right: 0;
+    width: 23%;
+    margin: 0 auto;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 35px 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
 .all-price{
     text-align: center;
     padding: 100px 0;
@@ -34,10 +54,6 @@
     border-radius: 30px;
 }
 
-.item-price:hover{
-    filter: brightness(90%);
-}
-
 .header-price{
     padding-bottom: 30px;
 }
@@ -50,6 +66,21 @@
     display: inline-flex;
 }
 
+.line-price{
+    position: relative;
+}
+
+.item-price h4{
+    position: absolute;
+    color: #fff;
+    background: #292F36;
+    margin-top: -20px !important;
+    border: solid;
+    border-radius: 20px;
+    padding: 5px 28px;
+    margin: 0 25px;
+}
+
 .body-price p{
     padding: 10px 0;
 }
@@ -59,7 +90,7 @@
 }
 
 .get-pricing{
-    background: #CDA274;
+    background: #292F36;
     color: #fff;
     border: none;
     display: inline-flex;
@@ -79,6 +110,10 @@
     .item-price{
         width: 90%;
         margin: 20px 0;
+    }
+
+    .item-price h4{
+        margin: 0 117px;
     }
 }
 

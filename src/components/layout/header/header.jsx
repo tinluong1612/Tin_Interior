@@ -28,7 +28,6 @@ function Header() {
                     <a href="/Blog">Blog</a>
                 </ul>
                 <div className="search-box">
-                    <input className="search-box_input" type="text" />
                     <button className="search-box_btn">
                     <FontAwesomeIcon icon={faSearch} />
                     </button>

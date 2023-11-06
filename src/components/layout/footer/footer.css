@@ -7,15 +7,19 @@
     box-sizing: border-box;
 }
 
-.col-10 {
+.w-10 {
     width: 10%;
 }
 
-.col-20 {
+.w-30 {
+    width: 30%;
+}
+
+.w-20 {
     width: 20%;
 }
 
-.col-60 {
+.w-60 {
     width: 60%;
 }
 
@@ -30,7 +34,7 @@
 
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -51,7 +55,20 @@
     margin: 15px 0;
 }
 
+.page-content h2{
+
+}
+
+.page-content a{
+    color: #000;
+}
+
+.page-content a:hover{
+    color: #CDA274;
+}
+
 .icon-social {
+    color: #000;
     font-size: 20px;
     margin: 0 11px;
 }

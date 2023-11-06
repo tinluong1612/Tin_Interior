@@ -178,6 +178,11 @@
     padding: 0 10px;
 }
 
+.info-mail input{
+    border: none;
+    border-bottom: 2px solid;
+}
+
 /* RESPONSIVE */
 
 /* MOBILE: WIDTH < 740px */

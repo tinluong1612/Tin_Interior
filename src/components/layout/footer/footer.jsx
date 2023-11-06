@@ -7,9 +7,9 @@ import { faFacebookF, faInstagram, faLinkedin, faTwitter } from '@fortawesome/fr
 
 function Footer() {
     return <div>
-        <div className="col-60 footer">
+        <div className="w-60 footer">
             <div className="main">
-                <div className="col-20 sub-content">
+                <div className="w-30 sub-content">
                     <div className="logo">
                         <img src={`assets/img/Logo.png`} width="30px" height="30px" alt="" />
                         <div className="name">Interno</div>
@@ -34,7 +34,7 @@ function Footer() {
                     </div>
                 </div>
                 {/* Pages */}
-                <div className="col-10 page-content">
+                <div className="w-10 page-content">
                     <h2>Pages</h2>
                     <a href="#" className="info">
                         About Us
@@ -53,7 +53,7 @@ function Footer() {
                     </a>
                 </div>
                 {/* Services */}
-                <div className="col-10 page-content">
+                <div className="w-10 page-content">
                     <h2>Services</h2>
                     <a href="#" className="info">
                         Kitchan
@@ -72,7 +72,7 @@ function Footer() {
                     </a>
                 </div>
                 {/* Contact */}
-                <div className="col-20 page-contact">
+                <div className="w-20 page-contact">
                     <h2>Contact</h2>
                     <p className="info">55 East Birchwood Ave. Brooklyn, New York 11201</p>
                     <p className="mgtd-45 info">contact@interno

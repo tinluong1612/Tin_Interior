@@ -19,6 +19,10 @@
     font-size: 18px;
 }
 
+.fz-16{
+    font-size: 16px;
+}
+
 .f{
     font-family: Jost;
 }
@@ -70,6 +74,10 @@
     padding: 100px 0;
 }
 
+.image-blog{
+    width: 100%;
+}
+
 .heading-blog{
     text-align: center;
 }
@@ -81,8 +89,9 @@
 
 .item-blog{
     width: 290px;
-    padding: 20px 30px 30px;
-    margin: 15px 15px;
+    padding: 20px 15px 30px;
+    margin: 15px 10px;
+    /* margin: 0 0; */
     border: solid 2px #F4F0EC;
     border-radius: 10%;
 }
