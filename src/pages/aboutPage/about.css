@@ -8,65 +8,65 @@
 }
 
 
-.pd-100{
+.pd-100 {
     padding: 100px 0;
 }
 
-.fw{
+.fw {
     font-weight: 600;
 }
 
-.fz-18{
+.fz-18 {
     font-size: 18px;
 }
 
-.f{
+.f {
     font-family: Jost;
 }
 
-.opacity{
+.opacity {
     opacity: 0.8;
 }
 
-.mg-auto{
+.mg-auto {
     margin: 0 auto;
 }
 
 /* Quotes */
-.quotes{
+.quotes {
     display: flex;
     justify-content: center;
 }
 
-.border-quotes{
+.border-quotes {
     width: 30%;
     border: outset 20px #F4F0EC;
     border-radius: 35px;
 }
 
-.content-quotes{
+.content-quotes {
     text-align: center;
     padding: 30px;
     font-size: 18px;
     font-style: italic;
 }
 
-.content-body{
+.content-body {
     padding: 10px 0;
 }
 
 /* What We Do */
-.what-we-do{
+.what-we-do {
     display: inline-flex;
     justify-content: center;
 }
 
-.content{
+.content {
     width: 30%;
     padding: 20px 48px;
 }
 
-.content .note{
+.content .note {
     padding: 30px 0;
 }
 
@@ -89,25 +89,25 @@
     color: #CDA274;
 }
 
-.image{
+.image {
     border-radius: 50px;
 }
 
-.image:hover{
+.image:hover {
     -webkit-transform: scale(1.06);
     transform: scale(1.06);
     transition: 0.3s;
-    filter:brightness(80%);
+    filter: brightness(80%);
 }
 
 /* Team */
-.content-team{
+.content-team {
     text-align: center;
     background: #F4F0EC;
     padding-bottom: 100px;
 }
 
-.title{
+.title {
     margin: 0 auto;
     width: 26%;
     padding: 100px 0 40px;
@@ -115,70 +115,70 @@
 }
 
 
-.member{
+.member {
     display: flex;
     justify-content: center;
 }
 
-.image-member-team{
+.image-member-team {
     width: 15%;
     height: -webkit-fill-available;
     border-radius: 55px;
     padding: 0 20px;
 }
 
-.image-member-team:hover{
+.image-member-team:hover {
     -webkit-transform: scale(1.06);
     transform: scale(1.06);
     transition: 0.3s;
-    filter:brightness(80%);
+    filter: brightness(80%);
 }
 
-.member-3{
+.member-3 {
     width: 15%;
     background: #fff;
 }
 
-.info-member-3{
+.info-member-3 {
     padding: 50px 0;
 }
 
-.social-member{
+.social-member {
     display: flex;
     justify-content: center;
     padding: 34px 0;
 }
 
-.social{
+.social {
     display: flex;
     font-size: 24px;
     padding: 0 5%;
 }
 
 /* Mail Box */
-.info-mail{
+.info-mail {
     text-align: center;
     padding-bottom: 50px;
 }
 
-.info-user{
+.info-user {
     padding: 30px;
 }
 
-.info-user input{
+.info-user input {
     width: 20%;
     height: 40px;
     margin: 0 1%;
     padding: 0 10px;
 }
 
-.info-mail .note-input{
+.info-mail .note-input {
     width: 40%;
     height: 40px;
     padding: 0 10px;
 }
 
-.info-mail input{
+.info-mail input {
     border: none;
     border-bottom: 2px solid;
 }
@@ -187,70 +187,89 @@
 
 /* MOBILE: WIDTH < 740px */
 @media only screen and (max-width: 46.1875em) {
+
+    /* banner */
+    .banner-text {
+        width: 50% !important;
+        padding: 0 !important;
+    }
+
+    .banner-text h1{
+        font-size: 16px;
+    }
+
+    .banner-text p{
+        font-size: 14px;
+    }
+
     /* Quotes */
-    .border-quotes{
+    .border-quotes {
         width: 90%;
     }
 
     /* What we do */
-    .what-we-do{
+    .what-we-do {
         flex-direction: column-reverse;
     }
 
-    .what-we-do-2{
+    .what-we-do-2 {
         flex-direction: column !important;
     }
 
-    .info-content{
+    .info-content {
         text-align: center;
     }
 
-    .get-free-btn{
+    .get-free-btn {
         margin: 0 auto;
     }
-    .image{
+
+    .image {
         width: 90%;
         display: flex;
         margin-left: 20px
     }
-    .content{
+
+    .content {
         width: 100%;
     }
 
     /* Team */
-    .content-team{
+    .content-team {
         width: 90%;
         margin: 0 auto;
     }
 
-    .title{
+    .title {
         width: 90%;
     }
 
-    .member{
+    .member {
         flex-direction: column;
     }
 
-    .member-3{
+    .member-3 {
         width: 90% !important;
         margin: 0 auto;
     }
-    .image-member-team{
+
+    .image-member-team {
         width: 100%;
         padding: 30px;
     }
+
     /* Mail box */
-    .txt-name{
+    .txt-name {
         width: 100% !important;
         margin: 0 0 !important;
     }
 
-    .txt-email{
+    .txt-email {
         width: 100% !important;
         margin: 20px 0 !important;
     }
 
-    .note-input{
+    .note-input {
         width: 90% !important;
     }
 }

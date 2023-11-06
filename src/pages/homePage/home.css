@@ -490,7 +490,8 @@
     }
 
     .sub-content-about{
-        width: 100%;
+        width: 90%;
+        padding-left: 20px;
     }
 
     /* Testimonial */
