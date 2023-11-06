@@ -7,12 +7,20 @@ function About() {
     return <div>
         <div className="about">
             {/* Banner */}
-            <img
-                src={`assets/img/img_aboutPage/banner-about.png`}
-                width="100%"
-                alt=""
-                className="image-banner"
-            />
+            <div className="banner">
+                <img
+                    src={`assets/img/img_aboutPage/banner-about.png`}
+                    width="100%"
+                    alt=""
+                    className="image-banner"
+                />
+
+                <div className="banner-text">
+                    <h1>About Us</h1>
+                    <p className="f fz-18">Home / About Us</p>
+                </div>
+
+            </div>
             {/* Quotes */}
             <div className="pd-100 quotes">
                 <div className="border-quotes">

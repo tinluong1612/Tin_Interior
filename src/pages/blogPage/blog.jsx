@@ -1,6 +1,6 @@
 import './blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
 function Blog() {
     return <div>
@@ -11,6 +11,11 @@ function Blog() {
                     width="100%"
                     alt=""
                 />
+
+                <div className="banner-text">
+                    <h1>Article & News</h1>
+                    <p className="f fz-18">Home / Blog</p>
+                </div>
             </div>
             <div className="body-blog">
                 {/* Latest - Post */}

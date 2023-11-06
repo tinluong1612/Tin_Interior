@@ -6,11 +6,19 @@ function Service() {
     return <div>
         <div className="service">
             {/* Banner */}
-            <img
-                src={`assets/img/img_servicePage/banner-service.jpg`}
-                width="100%"
-                alt=""
-            />
+            <div className="banner">
+                <img
+                    src={`assets/img/img_servicePage/banner-service.jpg`}
+                    width="100%"
+                    alt=""
+                />
+
+
+                <div className="banner-text">
+                    <h1>Services</h1>
+                    <p className="f fz-18">Home / Services</p>
+                </div>
+            </div>
             {/* Work */}
             <div className="all-service">
                 <div className="work">
