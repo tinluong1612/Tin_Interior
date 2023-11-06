@@ -112,8 +112,8 @@
         margin: 20px 0;
     }
 
-    .item-price h4{
-        margin: 0 117px;
+    .most-populer{
+        margin: 0 65px !important;
     }
 }
 

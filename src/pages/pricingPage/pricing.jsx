@@ -57,7 +57,7 @@ function Pricing() {
                         <h2>/month</h2>
                     </div>
                     <hr className="line-price" />
-                    <h4 className="f fz-18">Most Populer Plans</h4>
+                    <h4 className="f fz-18 most-populer">Most Populer Plans</h4>
                     <div className="f fz-18 body-price">
                         <div className="content-price">
                             <p>Complete home redesign</p>
