@@ -108,7 +108,9 @@
 }
 
 .info-item-homeww{
-    padding: 25px 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
 }
 
 /* Contact */
