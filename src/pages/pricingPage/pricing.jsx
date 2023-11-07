@@ -25,7 +25,10 @@ function Pricing() {
                 <div className="w-18 fz-18 item-price">
                     <div className="header-price">
                         <h2 className="title-price">Design advices</h2>
-                        <h1 className="price">$29</h1>
+                        <h1 className="price">
+                            <div className="dollar">$</div>
+                            <div className="money">29</div>
+                        </h1>
                         <h2>/month</h2>
                     </div>
                     <hr className="line-price" />
@@ -53,7 +56,10 @@ function Pricing() {
                 <div className="w-18 fz-18 item-price">
                     <div className="header-price">
                         <h2 className="title-price">Complete interior</h2>
-                        <h1 className="price">$39</h1>
+                        <h1 className="price">
+                            <div className="dollar">$</div>
+                            <div className="money">39</div>
+                        </h1>
                         <h2>/month</h2>
                     </div>
                     <hr className="line-price" />
@@ -82,7 +88,10 @@ function Pricing() {
                 <div className="w-18 item-price">
                     <div className="header-price">
                         <h2 className="title-price">Furniture design</h2>
-                        <h1 className="price">$59</h1>
+                        <h1 className="price">
+                            <div className="dollar">$</div>
+                            <div className="money">59</div>
+                        </h1>
                         <h2>/month</h2>
                     </div>
                     <hr className="line-price" />

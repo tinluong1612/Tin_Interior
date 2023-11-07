@@ -62,8 +62,17 @@
     padding-bottom: 20px;
 }
 
-.header-price p {
+.price{
     display: inline-flex;
+}
+
+.price .dollar{
+    margin-top: 38px;
+    font-size: 18px;
+}
+
+.price .money{
+    font-size: 60px;
 }
 
 .line-price{
