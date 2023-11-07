@@ -100,7 +100,7 @@
 }
 
 .get-pricing:hover{
-    background: #292F36;
+    opacity: 0.8;
 }
 
 /* RESPONSIVE */

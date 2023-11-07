@@ -74,7 +74,7 @@
 }
 
 .arrow {
-    font-size: 25px;
+    font-size: 20px;
     padding: 0 10px;
     color: #CDA274;
 }
@@ -125,6 +125,7 @@
 
 .sub-content-about {
     padding-top: 20px;
+    margin-right: 40px;
 }
 
 .sub-content-about h1 {
@@ -415,17 +416,15 @@
 }
 
 .contact-us{
-    width: 40%;
     display: inline-flex;
     align-items: center;
     font-family: Jost;
     font-size: 18px;
     background: #CDA274;
     color: #fff;
-    padding: 25px 90px;
+    padding: 20px 25px;
     border-radius: 20px;
     margin-top: 50px;
-    justify-content: space-between;
 }
 
 .contact-us:hover{
@@ -433,8 +432,9 @@
 }
 
 .arrow-contact{
+    padding: 0 10px;
     color: #000;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* RESPONSIVE */
@@ -568,9 +568,6 @@
         width: 90% !important;
     }
 
-    .contact-us{
-        width: 80% !important;
-    }
 }
 
 /* TABLET: WIDTH >= 740px and WIDTH < 1024px */
