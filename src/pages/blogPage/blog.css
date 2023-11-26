@@ -87,10 +87,21 @@
     justify-content: center;
 }
 
+.mg-auto{
+    margin: 0 auto;
+}
+
+.flex{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .item-blog{
     width: 290px;
     padding: 20px 15px 30px;
-    margin: 15px 10px;
+    margin: 15px 0px;
     /* margin: 0 0; */
     border: solid 2px #F4F0EC;
     border-radius: 10%;
@@ -103,12 +114,15 @@
 .image-blog {
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
 
 .blog-date{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 .chevron-right-icon {

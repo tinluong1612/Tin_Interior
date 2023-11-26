@@ -1,9 +1,44 @@
 import './blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+import axios from 'axios';
+import { React, useState, useEffect } from 'react';
+// import { test } from './blog-api'
+
 
 function Blog() {
-    return <div>
+
+    // var postApi = 'https://c2t-api.onrender.com/interior/news'
+    // //stream
+    // {
+    //     fetch(postApi)
+    //         .then(function (response) {
+    //             return response.json();
+    //             //JSON.parse: JSON -> Javascript Type
+    //         })
+    //         .then(function (get) {
+    //             // console.log(get);
+    //             setDataTest(get);
+    //         })
+    //         .catch(function (err) {
+    //             alert('Có lỗi!!!')
+    //         });
+    // }
+
+    const [dataTest, setDataTest] = useState([]);
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await axios.get("https://c2t-api.onrender.com/interior/news")
+            // console.log(response)
+            if (response?.status === 200) {
+
+                setDataTest(response?.data)
+            }
+        }
+        fetchData();
+    }, []);
+
+    return (<div>
         <div className="blog-page">
             <div className="banner">
                 <img
@@ -54,118 +89,143 @@ function Blog() {
                 {/* Articles & News */}
                 <div className="blog">
                     <h1 className="content-blog">Articles &amp; News</h1>
-                    <div className="all-blog">
-                        {/* Blog-1 */}
-                        <div className="item-blog">
-                            <img
-                                src={`assets/img/img_blogPage/news1-blog.png`}
-                                alt=""
-                                className="image-blog"
-                            />
-                            <h2 className="blog-name">
-                                Let’s Get Solution For Building Construction Work
-                            </h2>
-                            <div className="f fz-18 blog-date">
-                                <p>26 December,2022 </p>
-                                <button className="chevron-right-icon">
-                                    <FontAwesomeIcon icon={faChevronRight} />
-                                    {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
-                                </button>
+
+                        {/* API */}
+                    <div className="render-api">
+                        <div className="flex mg-auto">
+                        {dataTest && dataTest?.map((item, index) => (
+                            
+                                <div className="item-blog">
+                                    <img className='image-blog' src={item?.image} alt="" />
+                                    <h2 className='blog-name'>{item?.title}</h2>
+                                    <div className="f fz-18 blog-date">
+                                        <p>26 December,2022 </p>
+                                        <button className="chevron-right-icon">
+                                            <FontAwesomeIcon icon={faChevronRight} />
+                                        </button>
+                                    </div>
+                                </div>
+                            
+                        ))}
+                        </div>
+
+
+
+
+
+                        {/* <div className="all-blog">
+
+
+                            <div className="item-blog">
+                                <img
+                                    src={`assets/img/img_blogPage/news1-blog.png`}
+                                    alt=""
+                                    className="image-blog"
+                                />
+                                <h2 className="blog-name">
+                                    Let’s Get Solution For Building Construction Work
+                                </h2>
+                                <div className="f fz-18 blog-date">
+                                    <p>26 December,2022 </p>
+                                    <button className="chevron-right-icon">
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div className="item-blog color-blog">
+                                <img
+                                    src={`assets/img/img_blogPage/news2-blog.png`}
+                                    alt=""
+                                    className="image-blog"
+                                />
+                                <h2 className="blog-name">
+                                    Low Cost Latest Invented Interior Designing Ideas.
+                                </h2>
+                                <div className="f fz-18 blog-date">
+                                    <p>26 December,2022 </p>
+                                    <button className="chevron-right-icon">
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div className="item-blog">
+                                <img
+                                    src={`assets/img/img_blogPage/news3-blog.png`}
+                                    alt=""
+                                    className="image-blog"
+                                />
+                                <h2 className="blog-name">
+                                    Best For Any Office &amp; Business Interior Solution
+                                </h2>
+                                <div className="f fz-18 blog-date">
+                                    <p>26 December,2022 </p>
+                                    <button className="chevron-right-icon">
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        {/* Blog-2 */}
-                        <div className="item-blog color-blog">
-                            <img
-                                src={`assets/img/img_blogPage/news2-blog.png`}
-                                alt=""
-                                className="image-blog"
-                            />
-                            <h2 className="blog-name">
-                                Low Cost Latest Invented Interior Designing Ideas.
-                            </h2>
-                            <div className="f fz-18 blog-date">
-                                <p>26 December,2022 </p>
-                                <button className="chevron-right-icon">
-                                    <FontAwesomeIcon icon={faChevronRight} />
-                                    {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
-                                </button>
+
+                        <div className="all-blog">
+                            <div className="item-blog">
+                                <img
+                                    src={`assets/img/img_blogPage/news4-blog.png`}
+                                    alt=""
+                                    className="image-blog"
+                                />
+                                <h2 className="blog-name">
+                                    Let’s Get Solution For Building Construction Work
+                                </h2>
+                                <div className="f fz-18 blog-date">
+                                    <p>26 December,2022 </p>
+                                    <button className="chevron-right-icon">
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        {/* Blog-3 */}
-                        <div className="item-blog">
-                            <img
-                                src={`assets/img/img_blogPage/news3-blog.png`}
-                                alt=""
-                                className="image-blog"
-                            />
-                            <h2 className="blog-name">
-                                Best For Any Office &amp; Business Interior Solution
-                            </h2>
-                            <div className="f fz-18 blog-date">
-                                <p>26 December,2022 </p>
-                                <button className="chevron-right-icon">
-                                    <FontAwesomeIcon icon={faChevronRight} />
-                                    {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
-                                </button>
+
+
+                            <div className="item-blog color-blog">
+                                <img
+                                    src={`assets/img/img_blogPage/news5-blog.png`}
+                                    alt=""
+                                    className="image-blog"
+                                />
+                                <h2 className="blog-name">
+                                    Low Cost Latest Invented Interior Designing Ideas.
+                                </h2>
+                                <div className="f fz-18 blog-date">
+                                    <p>26 December,2022 </p>
+                                    <button className="chevron-right-icon">
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+
+
+                            <div className="item-blog">
+                                <img
+                                    src={`assets/img/img_blogPage/news6-blog.png`}
+                                    alt=""
+                                    className="image-blog"
+                                />
+                                <h2 className="blog-name">
+                                    Best For Any Office &amp; Business Interior Solution
+                                </h2>
+                                <div className="f fz-18 blog-date">
+                                    <p>26 December,2022 </p>
+                                    <button className="chevron-right-icon">
+                                        <FontAwesomeIcon icon={faChevronRight} />
+                                    </button>
+                                </div>
+                            </div>
+                        </div> */}
                     </div>
-                    <div className="all-blog">
-                        {/* Blog-4 */}
-                        <div className="item-blog">
-                            <img
-                                src={`assets/img/img_blogPage/news4-blog.png`}
-                                alt=""
-                                className="image-blog"
-                            />
-                            <h2 className="blog-name">
-                                Let’s Get Solution For Building Construction Work
-                            </h2>
-                            <div className="f fz-18 blog-date">
-                                <p>26 December,2022 </p>
-                                <button className="chevron-right-icon">
-                                    <FontAwesomeIcon icon={faChevronRight} />
-                                    {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
-                                </button>
-                            </div>
-                        </div>
-                        {/* Blog-5 */}
-                        <div className="item-blog color-blog">
-                            <img
-                                src={`assets/img/img_blogPage/news5-blog.png`}
-                                alt=""
-                                className="image-blog"
-                            />
-                            <h2 className="blog-name">
-                                Low Cost Latest Invented Interior Designing Ideas.
-                            </h2>
-                            <div className="f fz-18 blog-date">
-                                <p>26 December,2022 </p>
-                                <button className="chevron-right-icon">
-                                    <FontAwesomeIcon icon={faChevronRight} />
-                                    {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
-                                </button>
-                            </div>
-                        </div>
-                        {/* Blog-6 */}
-                        <div className="item-blog">
-                            <img
-                                src={`assets/img/img_blogPage/news6-blog.png`}
-                                alt=""
-                                className="image-blog"
-                            />
-                            <h2 className="blog-name">
-                                Best For Any Office &amp; Business Interior Solution
-                            </h2>
-                            <div className="f fz-18 blog-date">
-                                <p>26 December,2022 </p>
-                                <button className="chevron-right-icon">
-                                    <FontAwesomeIcon icon={faChevronRight} />
-                                    {/* <i className="bx bx-chevron-left bx-rotate-180" /> */}
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+
                     {/* Next pages */}
                     <div className="f fz-18 next-page">
                         <button><FontAwesomeIcon icon={faChevronLeft} /></button>
@@ -178,7 +238,7 @@ function Blog() {
             </div>
         </div>
 
-    </div>;
+    </div>);
 }
 
 export default Blog;

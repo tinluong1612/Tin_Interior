@@ -150,15 +150,10 @@ function About() {
                         <input className='txt-name' type="text" name="" placeholder="Name" id="" />
                         <input className='txt-email' type="text" name="" placeholder="Email" id="" />
                     </div>
-                    <input
-                        type="text"
-                        name=""
-                        placeholder="Hello Iam Intrested in.."
-                        id=""
-                        className="note-input"
+                    <input type="text" name="" placeholder="Hello Iam Intrested in.." id="" className="note-input"
                     />
                 </div>
-                <button className="mg-auto get-free-btn">
+                <button type='submit' className="mg-auto get-free-btn">
                     Send Now
                     <div className="arrow">
                         {/* icon mui ten */}
