@@ -361,7 +361,7 @@ function Home() {
         </div>
         <div className="all-blog">
           {/* Blog-1 */}
-          <div className="item-blog">
+          <div className="item-blog-home">
             <img
               src={`assets/img/img_homePage/blog1-home.png`}
               alt=""
@@ -380,7 +380,7 @@ function Home() {
             </div>
           </div>
           {/* Blog-2 */}
-          <div className="item-blog">
+          <div className="item-blog-home">
             <img
               src={`assets/img/img_homePage/blog2-home.png`}
               alt=""
@@ -399,7 +399,7 @@ function Home() {
             </div>
           </div>
           {/* Blog-3 */}
-          <div className="item-blog">
+          <div className="item-blog-home">
             <img
               src={`assets/img/img_homePage/blog3-home.png`}
               alt=""
@@ -419,11 +419,13 @@ function Home() {
           </div>
         </div>
       </div>
+
       {/* Contact */}
       <div className="col-60 contact">
         <div className="heading">
           <h1>Wanna join the interno?</h1>
           <p>It is a long established fact will be distracted.</p>
+            <a href="/contact">
           <button className="contact-us">
             <p>Contact With Us</p>
             <div className="arrow-contact">
@@ -431,6 +433,7 @@ function Home() {
             </div>
             {/* <i className="arrow-contact bx bx-right-arrow-alt" /> */}
           </button>
+            </a>
         </div>
       </div>
     </div>

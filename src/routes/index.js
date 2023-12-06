@@ -3,6 +3,7 @@ import About from '../pages/aboutPage/about'
 import Blog from '../pages/blogPage/blog'
 import Pricing from '../pages/pricingPage/pricing'
 import Service from '../pages/servicePage/service'
+import Contact from '../pages/contactPage/contact'
 
 
 // Public routes
@@ -12,6 +13,7 @@ const publicRoutes = [
     { path: '/blog', component: Blog},
     { path: '/pricing', component: Pricing},
     { path: '/service', component: Service},
+    { path: '/contact', component: Contact},
 ];
 
 // Private routes

@@ -232,6 +232,7 @@ function Service() {
                 <div className="heading">
                     <h1>Wanna join the interno?</h1>
                     <p>It is a long established fact will be distracted.</p>
+                    <a href="/contact">
                     <button className="contact-us">
                         Contact With Us
                         <div className="arrow-contact">
@@ -239,6 +240,7 @@ function Service() {
                         </div>
                         {/* <i className="arrow-contact bx bx-right-arrow-alt" /> */}
                     </button>
+                    </a>
                 </div>
             </div>
         </div>
